@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS selectors example</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    p {
+      font-style: italic;
+    }
+
+    .container * {
+      padding: 10px;
+    }
+
+    #main-heading {
+      font-weight: bold;
+      color: blue;
+    }
+
+    h1, h2, h3 {
+      border-bottom: 2px solid gray;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1 id="main-heading">Main Heading</h1>
+    <p>This is a paragraph inside the container</p>
+    <a href="#">This is a link</a>
+    <span>This is a span</span>
+    <div class="box">This is a box inside container</div>
+  </div>
+
+</body>
+</html>

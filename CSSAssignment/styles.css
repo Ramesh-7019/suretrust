@@ -1,0 +1,9 @@
+.square-list li {
+  list-style: square;
+}
+
+.site-footer {
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
