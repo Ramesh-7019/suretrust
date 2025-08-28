@@ -1,0 +1,78 @@
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.buttonContainer {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 520px;
+    margin: auto;
+    gap: 20px;
+}
+
+#addCssBtn,
+#addCardBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+img {
+    width: 95%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+#container {
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(4, 1fr); 
+}
+
+
+@media (max-width: 600px) {
+    #container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    #container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (min-width: 1025px) {
+    #container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.card {
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.buyBtn {
+    background-color: #70b3ff;
+    color: #2c2c2c;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
