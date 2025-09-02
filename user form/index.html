@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    
+    <div class="form-box">
+      <h2>Student Registration</h2>
+
+      <label>Registration No</label>
+      <input type="text" id="regNo" placeholder="Enter Reg No">
+
+      <label>Name</label>
+      <input type="text" id="name" placeholder="Enter Name">
+
+      <label>Email</label>
+      <input type="email" id="email" placeholder="Enter Email">
+
+      <label>State</label>
+      <input type="text" id="state" placeholder="Enter State">
+
+      <label>Course/Domain</label>
+      <select id="course">
+        <option value="">-- Select Domain --</option>
+        <option>Web Development</option>
+        <option>Data Science</option>
+        <option>Artificial Intelligence</option>
+        <option>Machine Learning</option>
+        <option>Cybersecurity</option>
+        <option>Cloud Computing</option>
+        <option>DevOps</option>
+        <option>Software Engineering</option>
+      </select>
+
+      <button onclick="submitData()">Submit</button>
+    </div>
+
+    
+    <div class="table-box">
+      <h2>Student List</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>SR.NO</th>
+            <th>Reg No</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>State</th>
+            <th>Course</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="dataBody"></tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
