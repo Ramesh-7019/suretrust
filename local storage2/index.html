@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>local storage 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Student Registration</h2>
+    <form id="studentForm">
+      <label>Registration No:</label>
+      <input type="text" id="regNo"><br>
+
+      <label>Name:</label>
+      <input type="text" id="name"><br>
+
+      <label>Email:</label>
+      <input type="text" id="email"><br>
+
+      <label>State:</label>
+      <input type="text" id="state"><br>
+
+      <label>Course:</label>
+      <select id="course">
+        <option value="">Select Course</option>
+        <option>Web Development</option>
+        <option>Data Science</option>
+        <option>Artificial Intelligence</option>
+        <option>Machine Learning</option>
+        <option>Cybersecurity</option>
+        <option>Cloud Computing</option>
+        <option>DevOps</option>
+        <option>Software Engineering</option>
+      </select><br>
+
+      <button type="button" onclick="submitData()">Submit</button>
+    </form>
+
+    <h3> Accepted Students</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>1</th>
+          <th>Reg No</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>State</th>
+          <th>Course</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="acceptedBody"></tbody>
+    </table>
+
+    <h3> Rejected Students</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>2</th>
+          <th>Reg No</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>State</th>
+          <th>Course</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="rejectedBody"></tbody>
+    </table>
+
+    <h3>On Hold Students</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>3</th>
+          <th>Reg No</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>State</th>
+          <th>Course</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="holdBody"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

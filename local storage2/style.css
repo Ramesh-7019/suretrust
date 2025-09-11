@@ -1,0 +1,123 @@
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.2);
+}
+
+h2 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 40px;
+  color: #444;
+  padding: 10px;
+  border-left: 5px solid #4CAF50;
+  background: #f9f9f9;
+  border-radius: 6px;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+label {
+  display: inline-block;
+  width: 130px;
+  font-weight: 600;
+  margin: 8px 0;
+  text-align: right;
+}
+
+input, select {
+  padding: 8px;
+  margin: 8px;
+  width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #4CAF50;
+  box-shadow: 0px 0px 6px rgba(76, 175, 80, 0.5);
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #388E3C;
+  transform: scale(1.05);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+}
+
+th {
+  background: #4CAF50;
+  color: white;
+  padding: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background: #f1f1f1;
+}
+
+.action-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 2px;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.accept { background: #28a745; color: white; }
+.reject { background: #dc3545; color: white; }
+.hold { background: #ffc107; color: black; }
+.delete { background: #6c757d; color: white; }
+
+.action-btn:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
