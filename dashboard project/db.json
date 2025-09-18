@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": "a2e3",
+      "name": "Ramesh Navalagund",
+      "age": "6"
+    },
+    {
+      "id": "5680",
+      "name": "Rajesh Navalagund ",
+      "age": "1"
+    },
+    {
+      "id": "fa20",
+      "name": "Basavaraj chavadi",
+      "age": "3"
+    }
+  ]
+}
